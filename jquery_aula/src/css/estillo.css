@@ -1,0 +1,24 @@
+#haha{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: relative;
+}
+body{
+    background-color: azure;
+}
+#cep{
+    position: relative;
+    width:20%;
+    margin:auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+
+}
+#menu{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
