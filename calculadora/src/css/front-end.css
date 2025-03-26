@@ -1,0 +1,47 @@
+body {
+    background: url(../img/img1.jfif) no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 15% 40% 15%;
+    padding: 10px 5px 10px;
+    border: 5px inset darkgoldenrod;
+    background-color: rgba(148, 188, 143, 0.3);
+
+}
+
+label,
+span {
+    color: darkred;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+    border-left: 2px double rgb(184, 137, 11);
+    border-right: 2px double rgb(184, 137, 11);
+    border-radius: 3px;
+    background-color: rgba(127, 255, 217, 0.5);
+    box-shadow: 2px 2px 7px 1px darkred;
+    display: flex;
+    justify-content: center;
+}
+select,input{
+    border-radius: 2px;
+}
+
+.o {
+    display: none;
+}
+
+#n1 {
+    background-color: rgba(127, 255, 217, 0.5);
+    border: 2px outset darkgoldenrod;
+    margin-bottom: 5px;
+}
+
+#n2 {
+    background-color: rgba(127, 255, 202, 0.5);
+    border: 2px outset darkgoldenrod;
+}

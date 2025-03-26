@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+</head>
+<style>
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    body {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        color: rgb(5, 30, 5);
+        font-family: 'Courier New', Courier, monospace;
+    }
+section{
+
+    width: 25%;
+    margin: auto;
+    display: flex;
+flex-direction: column;
+}
+footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+    .fonte {
+        color: blue;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #estilizado {
+        color: blueviolet;
+    }
+
+    fieldset {
+        width: 25%;
+    }
+</style>
+
+<body>
+    <header>
+        <h1 class="fonte">Empresa XPTO</h1>
+    </header>
+    <main>
+        <section>
+            <p class="logo">Login</p>
+            <p id="estilizado">Insira suas informações abaixo</p>
+            <p>Insira seus dados</p>
+            <form id="formulario" name="formulario">
+                <fieldset>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                    <br>
+                    <input type="submit" value="Acessar">
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="final">
+            <small>
+                <p>Esta página foi desenvolvida pela empresa Tabajara Sistemas</p>
+                <p>Porto União/SC</p>
+            </small>
+    </footer>
+</body>
+
+</html>

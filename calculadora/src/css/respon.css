@@ -1,0 +1,9 @@
+@media (max-widht:1120px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
