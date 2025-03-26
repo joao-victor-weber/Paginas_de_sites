@@ -1,0 +1,20 @@
+.formulario{
+    background-color: aquamarine;
+}
+ #legenda{
+    color: bisque;
+ }
+ .pergunta{
+    color: blueviolet;
+    font-style: oblique;
+ }
+.cor{
+    color: brown;
+    font-style: italic ;
+}
+.mensagem{
+    color: violet;
+    font-style: italic;
+    font-size: 15px;
+    border-style: double;
+}

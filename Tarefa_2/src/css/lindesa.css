@@ -1,0 +1,17 @@
+
+    div{
+        width: 20%;
+        margin: 15% 10% 0 37%;
+    }
+    #r1{
+       display: flex;
+       float: right;
+    }
+    .r2{
+        width: 20%;
+        margin: 0 0 0 90%;
+    }
+/*margin: 10px 3px 30px 5px;  /* topo:     margem de 10px */
+                            /* direita:  margem de 3px  */
+                            /* inferior: margem de 30px */
+                            /* esquerda: margem de 5px  */

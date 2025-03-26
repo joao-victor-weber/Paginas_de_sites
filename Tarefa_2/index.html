@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="./src/js/relogio.js"></script>
+  <link rel="stylesheet" href="./src/css/lindesa.css">
+</head>
+<body onload="atualiza()">
+    <label class="r2" for="r1">Hora Atual: </label><span id="r1" name="r1"></span>
+    <br><div>
+    <label for="data1">Digite o ano atual: </label>
+    <input type="number" id="data1" name="data1">
+    <br>
+    <label for="data">Preencha com o ano de seu nacimento: </label>
+    <input type="number" id="data" name="data">
+    <input type="button" id="cc" name="cc" value="Enviar" onclick="com()">
+    <br>
+    <span id="cd" name="cd"></span>
+    <br>
+    <label id="l1" for="dia" hidden>Dia Atual:</label><span id="dia" name="dia"></span>
+    <br>
+    <label id="l3" for="mes" hidden>Mes Atual:</label><span id="mes" name="mes"></span>
+    <br>
+    <label id="l2" for="ano" hidden>Ano Atual:</label><span id="ano" name="ano"></span>
+    <br>
+</div>
+</body>
+</html>

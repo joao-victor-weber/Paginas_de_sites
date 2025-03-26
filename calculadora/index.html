@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./src/js/calcular.js"></script>
+</head>
+<body>
+    <input type="number" name="n1" id="n1">
+    <br>
+    <input type="number" name="n2" id="n2">
+    <br>
+    <label for="operacao">escolha uma operação</label>
+    <br>
+    <select id="operacao">
+        <option value="+">somar</option>
+        <option value="-">subtrair</option>
+        <option value="*">mutiplicar</option>
+        <option value="/">dividir</option>
+    </select> <input type="button" value="calcular" onmouseenter="call()" onmouseout="caal()" onclick="cal(parseInt(n1.value),parseInt(n2.value),operacao.value)">
+    <span id="res" name="res"></span>
+    <img  id="img" name="img" alt="" height="" wdth="" onmouseenter="img0()" onmouseout="img2()" src="./src/img/img1.jfif">
+</body>
+</html>

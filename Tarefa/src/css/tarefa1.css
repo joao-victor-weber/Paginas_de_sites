@@ -1,0 +1,28 @@
+
+body{
+    background-image: url("../img/tarefa2.jpg");
+background-size: cover;
+}
+.per{
+color: aquamarine;
+font-style:italic;
+font-size: 15px;
+width: auto;
+margin: 0 0 5% 0;
+}
+.perg{
+font-style: oblique;
+color: rgb(43, 226, 186);
+border: 5px double red;
+margin-top: 20px;
+width: auto;
+margin: 0 0 0 0;
+}
+.but{
+width: auto;
+margin: 5% 0 0 0;
+}
+.centralizar{
+width: 20%;
+margin: 15% 10% 0 45%;
+}

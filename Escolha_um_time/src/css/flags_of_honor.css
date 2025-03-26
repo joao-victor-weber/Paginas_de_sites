@@ -1,0 +1,17 @@
+.per{
+    font-style: oblique;
+}
+#glamur{
+
+  margin: 25% 0 0 8%;
+}
+.cor{
+  color: blue ;
+}
+#glamur2{
+    margin: 0 0 0 74%;
+}
+body{
+background: url("../img/campo_de_guerra.jpg");
+background-size: cover;
+}
